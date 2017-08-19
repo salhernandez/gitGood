@@ -13,5 +13,6 @@ A collection of git commands I find useful.
 ### Checks out a branch from remote, and sets tracking for it
 schema:
 `git checkout --track -b <local branch> <remote>/<tracked branch>`
+
 example:
 `git checkout --track -b aBranch origin/aBranch`
