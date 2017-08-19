@@ -9,3 +9,7 @@ A collection of git commands I find useful.
 
 ### Shows all local branches, commit hash, and commit message on its HEAD
 `git branch -v`
+
+### Checks out a branch from remote, and sets tracking for it
+git checkout --track -b <local branch> <remote>/<tracked branch>
+`git checkout --track -b aBranch origin/aBranch`
