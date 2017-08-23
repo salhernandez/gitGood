@@ -17,15 +17,15 @@ schema:
 example:
 `git checkout --track -b aBranch origin/aBranch`
 
-###Add a tag to HEAD
+### Add a tag to HEAD
 `git tag v1.0`
 where the tag is "v1.0"
 
-###Add an annotated tag to HEAD
+### Add an annotated tag to HEAD
 `git tag v1.0 -m "This is the tag information"`
 where the tag is "v1.0" and message is "This is the tag information"
 
-##Add a tag to a specific commit
+## Add a tag to a specific commit
 `git tag -a v1.1 12cd234`
 where the tag is "v1.1" and the commit hash starts with 12cd234
-you only need the first sever characters of the commit hash 
+you only need the first sever characters of the commit hash
