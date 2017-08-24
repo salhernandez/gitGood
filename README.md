@@ -29,3 +29,8 @@ where the tag is "v1.0" and message is "This is the tag information"
 `git tag -a v1.1 12cd234`
 where the tag is "v1.1" and the commit hash starts with 12cd234
 you only need the first sever characters of the commit hash
+
+### Create a branch from origin, track it, and checkout branch
+`git checkout --track origin/aBranch`
+This will create a local branch of "aBranch", track it, and then it will
+checkout the branch
