@@ -37,3 +37,6 @@ checkout the branch
 
 ### Show logs with only the abbreviated commit hash and commit subject
 `git log --format="%h: %s"`
+
+### Show logs with only the abbreviated commit hash, commit subject, and branch location
+`git log --format="%h%d: %s"`
