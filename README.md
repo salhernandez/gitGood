@@ -34,3 +34,6 @@ you only need the first sever characters of the commit hash
 `git checkout --track origin/aBranch`
 This will create a local branch of "aBranch", track it, and then it will
 checkout the branch
+
+### Show logs with only the abbreviated commit hash and commit subject
+`git log --format="%h: %s"`
