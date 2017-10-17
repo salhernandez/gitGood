@@ -47,3 +47,6 @@ checkout the branch
 
 ### Show logs on a graph only the abbreviated commit hash, commit subject, and branch location
 `git log --graph --format="%h%d: %s"`
+
+### Check differences between the local branch and the remote (when you are in the local branch)
+`git diff origin/<branch_name>`
