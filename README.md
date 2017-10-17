@@ -17,6 +17,10 @@ schema:
 example:
 `git checkout --track -b aBranch origin/aBranch`
 
+or
+
+`git checkout -u origin aBranch`
+
 ### Add a tag to HEAD
 `git tag v1.0`
 where the tag is "v1.0"
