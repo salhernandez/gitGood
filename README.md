@@ -50,3 +50,9 @@ checkout the branch
 
 ### Check differences between the local branch and the remote (when you are in the local branch)
 `git diff origin/<branch_name>`
+
+## Delete a local tag
+`git tag -d <tag>`
+
+## Delete a remote tag
+`git push origin :refs/tags/<tag>`
