@@ -59,3 +59,6 @@ checkout the branch
 
 ## Delete a remote tag
 `git push origin :refs/tags/<tag>`
+
+## Change the message of the last commit (before pushing)
+`git --ammend -m "<message>"`
