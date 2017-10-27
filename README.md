@@ -62,3 +62,6 @@ checkout the branch
 
 ## Change the message of the last commit (before pushing)
 `git --ammend -m "<message>"`
+
+## Show all branches from remote
+`git branch -r`
