@@ -65,3 +65,6 @@ checkout the branch
 
 ## Show all branches from remote
 `git branch -r`
+
+## Show branches that have been merged into the current branch
+`git branch --merged`
