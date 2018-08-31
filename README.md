@@ -68,3 +68,6 @@ checkout the branch
 
 ## Show branches that have been merged into the current branch
 `git branch --merged`
+
+## Update branch without checking out the branch
+`git fetch <remote> <sourceBranch>:<destinationBranch>`
