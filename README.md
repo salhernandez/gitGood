@@ -71,3 +71,6 @@ checkout the branch
 
 ## Update branch without checking out the branch
 `git fetch <remote> <sourceBranch>:<destinationBranch>`
+
+## Pick through the commits that you want to stage
+`git add -p .` or `git add -p <path/to/file>`
