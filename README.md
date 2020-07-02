@@ -74,3 +74,6 @@ checkout the branch
 
 ## Pick through the commits that you want to stage
 `git add -p .` or `git add -p <path/to/file>`
+
+## Rename a file in git
+git mv <original name> <new name>
