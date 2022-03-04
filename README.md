@@ -76,4 +76,7 @@ checkout the branch
 `git add -p .` or `git add -p <path/to/file>`
 
 ## Rename a file in git
-git mv <original name> <new name>
+`git mv <original name> <new name>`
+
+## Show log and files changed per commit
+`git log --stat`
